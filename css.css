@@ -1,0 +1,72 @@
+body {
+    background: linear-gradient(45deg, #330a73, #4b1f95, #5d319f, #6f449e, #7e569f);
+    font-family: 'Arial', sans-serif;
+   }
+table {
+    text-align: left;
+    font-family: Helvetica, Arial, sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+table th {
+    background-color: #f2f2f2;
+}
+
+.form-container {
+    width: 300px;
+    padding: 16px;
+    background: linear-gradient(45deg, #000000, #000033, #000066, #000099, #0000cc, #0000ff);
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    box-shadow: 0px 0px 10px 0px grey;
+}
+
+.form-container input[type=text], .form-container input[type=password] {
+    display: inline-block;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    width: 86%;
+}
+
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    display: inline-block;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    width: 86%;
+}
+
+.form-container .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+
+.form-container .btn:hover {
+    opacity:1;    
+    background-color: #45a049;
+}
+
+.form-title {
+    text-align: center;
+    color: black;
+    margin-bottom: 16px;
+}
